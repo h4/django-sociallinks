@@ -1,0 +1,7 @@
+{% load staticfiles %}
+
+{% for object in objects %}
+    <div class="social-icons__icon">
+        <a href="{{ object.url }}" target="_blank"><img src="{% static object.img_path %}" alt=""/></a>
+    </div>
+{% endfor %}
