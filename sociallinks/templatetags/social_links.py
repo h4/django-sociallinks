@@ -4,7 +4,7 @@ from sociallinks.models import SocialNetworks
 
 register = template.Library()
 
-@register.inclusion_tag('tags/sociallinks.html')
+@register.inclusion_tag('sociallinks/icons.html')
 def social_icons():
     icons = SocialNetworks.objects.all()
 
