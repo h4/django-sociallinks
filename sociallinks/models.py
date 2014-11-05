@@ -9,6 +9,7 @@ NETWORKS_CHOICES = (
     ('twitter', _('twitter')),
     ('instagram', _('instagram')),
     ('youtube', _('youtube')),
+    ('odnoklassniki', _('odnoklassniki')),
 )
 
 
